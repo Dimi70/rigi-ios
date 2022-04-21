@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
     s.author            = { 'Name' => 'dimitri@rigi.io' }
     #s.license           = { :type => 'Custom', :file => 'LICENSE' }
-    s.license =         = { :type => 'Copyright', :text => 'Copyright 2022 Rigi.io'}
+    s.license           = { :type => 'Copyright', :text => 'Copyright 2022 Rigi.io'}
     s.platform          = :ios
     s.source            = { :http => 'https://github.com/Dimi70/rigi-ios/releases/download/1.0.0/Rigi.zip' }
 
