@@ -16,5 +16,7 @@ Pod::Spec.new do |s|
 
     #s.ios.vendored_frameworks = 'Rigi/Rigi.framework/ios-arm64_armv7/Rigi.framework', 'Rigi/Rigi.framework/ios-arm64_i386_x86_64-simulator/Rigi.framework'
     s.ios.vendored_frameworks = 'Rigi/Rigi.framework/ios-arm64_i386_x86_64-simulator/Rigi.framework'
+    s.preserve_path = 'Rigi/Rigi.framework/ios-arm64_i386_x86_64-simulator/Rigi.framework/**'
+    #s.ios.public_header_files = 'Rigi/Rigi.framework/ios-arm64_i386_x86_64-simulator/Rigi.framework/Headers/*'
     #s.preserve_paths = 'README.md'
 end
